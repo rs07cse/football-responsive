@@ -1,23 +1,83 @@
 body {
   font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+
+.menubar {
+  background-color: rgb(48, 48, 224);
+  display: flex;
 }
 
 nav ul {
   display: flex;
-}
-
-nav li {
-  float: left;
+  flex-direction: row;
+  align-items: flex-start;
   list-style: none;
   margin-right: 20px;
   padding: 0px 10px;
+  text-decoration: none;
+  color: white;
 }
 
-nav li {
-  background-color: white;
-}
 nav li a {
   text-decoration: none;
-  font-size: 20px;
-  color: purple;
+  font-size: 15px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 140px 10px;
+  flex-direction: row;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
+button {
+  background-color: #e02c6d;
+  color: white;
+  padding: 10px, 24px, 10px, 24px;
+  width: 123px;
+  height: 44px;
+  left: 1037px;
+}
+
+.login {
+  margin-left: 200px;
+}
+
+/* first part style */
+
+.first-part {
+  background-color: rgb(48, 48, 224);
+}
+.banner {
+  display: flex;
+  margin-left: 100px;
+}
+
+.banner .thumbnail img {
+  width: 450px;
+  height: 338px;
+  padding-left: 150px;
+  padding-top: 100px;
+}
+
+.banner-title {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.watchlive {
+  background: #e02c6d;
+  padding: 10px 24px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+/* middle part style */
+
+.player-photo img {
+  height: 200px;
+  width: 220px;
 }
