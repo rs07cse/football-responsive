@@ -78,6 +78,83 @@ button {
 /* middle part style */
 
 .player-photo img {
-  height: 200px;
-  width: 220px;
+  height: 270px;
+  width: 320px;
+}
+
+.all-players {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.player-details {
+  font-size: 10px;
+}
+
+.players-football {
+  background-color: rgb(108, 177, 235);
+  border-radius: 5px;
+
+  margin: 30px 30px 30px 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  align-items: center;
+}
+
+/* last part style  */
+
+.lastpart-title {
+  color: #0a0826;
+}
+
+.lastpart-thumbnail img {
+  height: 350px;
+  width: 450px;
+  padding-left: 200px;
+  padding-top: 10px;
+}
+
+.lastpart-title {
+  color: #0a0826;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.description {
+  font-size: small;
+  color: #0a0826;
+}
+
+/* footer style */
+
+footer img {
+  width: 400px;
+  height: 90px;
+  padding-left: 400px;
+  padding-top: 200px;
+}
+
+.socialmedia-icon {
+  padding-left: 600px;
+}
+
+.copyright {
+  padding-left: 540px;
+}
+
+/* media queries */
+
+/* mobile devices */
+
+@media only screen and (max-width: 688px) {
+  container {
+    width: 100%;
+  }
+  .first-part {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .first-part-banner {
+    flex-direction: column;
+  }
 }
